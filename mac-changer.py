@@ -5,7 +5,7 @@ import optparse
 import re
 import random
 
-print("all input entry must be string")
+print("All input entry must be string:")
 print('e.g "y" , "n" ,  "00:00:5e:00:53:af" ')
 def generate_mac_address():
     mac = [random.randint ( 0x00, 0xff ) for _ in range ( 6 )]
@@ -58,3 +58,30 @@ if current == new_mac:
     print("[+] MAC address has successfully been changed to:" + current)
 else:
     print ("[+] MAC address did not get changed ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# written by fixit
