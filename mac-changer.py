@@ -5,8 +5,9 @@ import optparse
 import re
 import random
 
-print("All input entry must be string:")
-print('e.g "y" , "n" ,  "00:00:5e:00:53:af" ')
+print("All input entry must contain "" while using python2:")
+print('e.g "y" , "n" ,  "00:00:5e:00:53:af" while using python2 ')
+print('e.g y , n ,  00:00:5e:00:53:af while using python ')
 def generate_mac_address():
     mac = [random.randint ( 0x00, 0xff ) for _ in range ( 6 )]
     mac[0] = (mac[0] & 0xfc) | 0x02  # Setting the second least significant bit of the first byte to 1
