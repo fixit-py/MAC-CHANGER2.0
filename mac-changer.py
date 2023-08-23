@@ -1,10 +1,25 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import subprocess
 import optparse
 import re
 import random
-
+# console initial print
+print("i am your computer greatest enemy")
+print('######################################################################')
+print('')
+print('########     ##        ##       ##    ##   ########  ')
+print('##           ##         ##     ##     ##      ##     ')
+print('##           ##          ##   ##      ##      ##   ')
+print('########     ##           ####        ##      ## ')
+print('##           ##         ##    ##      ##      ##  ')
+print('##           ##        ##      ##     ##      ##      ')
+print('##           ##       ##        ##    ##      ##     ')
+print('')
+print('######################################################################')
+print('')
+print('')
+print('')
 print("All input entry must contain "" while using python2:")
 print('e.g "y" , "n" ,  "00:00:5e:00:53:af" while using python2 ')
 print('e.g y , n ,  00:00:5e:00:53:af while using python ')
