@@ -6,17 +6,17 @@ import re
 import random
 # console initial print
 print("i am your computer greatest enemy")
-print('######################################################################')
+print('############################################################################################################################################')
 print('')
-print('########     ##        ##       ##    ##   ########  ')
-print('##           ##         ##     ##     ##      ##     ')
-print('##           ##          ##   ##      ##      ##   ')
-print('########     ##           ####        ##      ## ')
-print('##           ##         ##    ##      ##      ##  ')
-print('##           ##        ##      ##     ##      ##      ')
-print('##           ##       ##        ##    ##      ##     ')
+print('  ########     ##       ##       ##    ##   ########  ')
+print('  ##           ##        ##     ##     ##      ##     ')
+print('  ##           ##         ##   ##      ##      ##   ')
+print('  ########     ##           ####       ##      ## ')
+print('  ##           ##         ##    ##     ##      ##  ')
+print('  ##           ##        ##      ##    ##      ##      ')
+print('  ##           ##       ##        ##   ##      ##     ')
 print('')
-print('######################################################################')
+print('############################################################################################################################################')
 print('')
 print('')
 print('')
@@ -33,6 +33,10 @@ if question == "y":
     new_mac = generate_mac_address()
 elif question == "n":
     new_mac = input("enter a mac address:")
+elif question == "q":
+    print("Are you stupid")
+    print("Obey the instructions")
+    print("And do not annoy the gods")    
 else:
     new_mac = generate_mac_address ()
 
